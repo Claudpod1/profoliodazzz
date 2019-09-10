@@ -432,7 +432,7 @@ small { display: none;}
 progress {
 	position: fixed;
 	top:0;
-    -webkit-writing-mode: horizontal-tb !important;
+    -wbkit-writing-mode: horizontal-tb !important;
     -webkit-appearance: none;
     box-sizing: border-box;
     display: inline-block;
