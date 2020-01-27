@@ -1,13 +1,13 @@
 body {
-	color:#4059AD;
+	color:#210124;
     font-size: 16px;
     font-family: 'Playfair Display', serif;
 }
 a {
-	color: #009688;
+	color: #750D37;
 }
 blockquote {
-	border-left: 5px solid #f4b942;
+	border-left: 5px solid #dbf9f0;
 	color: #f4b942;
 	font-size: 125%;
 	font-weight: 400;
@@ -23,7 +23,7 @@ blockquote * {
 }
 
 nav{
-	background-color:#f4b942
+	background-color:#210124; 
 }
 /* nav {
 	background: white;
