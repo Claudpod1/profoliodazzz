@@ -1,14 +1,14 @@
 body {
-	color:#210124;
+	color:#B46382;
     font-size: 16px;
     font-family: 'Playfair Display', serif;
 }
 a {
-	color: #750D37;
+	color: #1C2743;
 }
 blockquote {
 	border-left: 5px solid #dbf9f0;
-	color: #f4b942;
+	color: #fd9564;
 	font-size: 125%;
 	font-weight: 400;
 	margin: 20px 0;
@@ -23,7 +23,7 @@ blockquote * {
 }
 
 nav{
-	background-color:#210124; 
+	background-color:#E3463F; 
 }
 /* nav {
 	background: white;
@@ -47,7 +47,7 @@ ul.side-nav li {
 }
 ul.side-nav.fixed a {
 	box-sizing: content-box;
-	color: #444;
+	color: #1c2743;
 	display: block;
 	line-height: 100%;
 	padding: 10px 0 12px;
@@ -120,7 +120,7 @@ h3 {
 	text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
 }
 #intro.section .underline {
-	border-bottom: 5px solid #009688;
+	border-bottom: 5px solid #e3463f;
 }
 #intro.section .teal {
 	padding: 0 10px;
@@ -154,7 +154,7 @@ h3 {
 .card li a {
 	margin-right: 0;
 	color: #333;
-	border-bottom: 2px solid #ffab40;
+	border-bottom: 2px solid #fd9564;
 }
 .card li a:hover {
 	color: #333;
@@ -220,7 +220,7 @@ a.hoverline {
 	-webkit-transition: .25s all;
 }
 a.hoverline:hover {
-	border-bottom: 3px solid #009688 !important;
+	border-bottom: 3px solid #213862 !important;
 }
 #skills .card.large {
 	height: 360px;
@@ -412,31 +412,4 @@ small { display: none;}
 
 .card-image{
 	width: 100%;
-}
-
-.readingProgressbar {
-    display: none;
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    z-index: 9999999;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    border: none;
-	background-color: transparent;
-	color:blue;
-}
-
-progress {
-	position: fixed;
-	top:0;
-    -wbkit-writing-mode: horizontal-tb !important;
-    -webkit-appearance: none;
-    box-sizing: border-box;
-    display: inline-block;
-    height: 1em;
-    width: 10em;
-    vertical-align: -0.2em;
 }
