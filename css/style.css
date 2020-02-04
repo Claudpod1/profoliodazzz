@@ -6,6 +6,11 @@ body {
 a {
 	color: #1C2743;
 }
+
+.underline {
+color:#210124;
+}
+
 blockquote {
 	border-left: 5px solid #dbf9f0;
 	color: #fd9564;
@@ -22,19 +27,17 @@ blockquote * {
 	text-align: center;
 }
 
-nav{
-	background-color:#E3463F; 
-}
-/* nav {
+
+nav {
 	background: white;
 	box-shadow: none;
 	height: 0;
-} */
-/* nav i {
+}
+nav i {
 	padding: 0 15px;
 	position: relative;
 	top: 5px;
-} */
+}
 main {
 	/* background: url(../images/me.jpg) repeat; */
 	padding-left: 190px;
@@ -43,7 +46,7 @@ ul.side-nav {
 	width: 190px;
 }
 ul.side-nav li {
-	padding: 0;
+	padding: 5;
 }
 ul.side-nav.fixed a {
 	box-sizing: content-box;
@@ -110,7 +113,7 @@ h3 {
 	color: white;
 	font-weight: 200;
 	left: 0;
-	position: absolute;
+	position: relative;
 	top: 0;
 }
 #intro.section .container *:not(span) {
@@ -148,9 +151,6 @@ h3 {
   top: 35px;
 }
 
-.blue-text {
-	color: #6b9ac4;
-}
 .card li a {
 	margin-right: 0;
 	color: #333;
